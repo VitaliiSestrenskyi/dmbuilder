@@ -1,0 +1,21 @@
+{
+  "name": "v_sestrenskyi/itua_dmbuilder",
+  "description": "Модуль конструктора модулей на D7",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vitalii Sestrenskyi",
+      "email": "sestrinskiy@mail.ru"
+    }
+  ],
+  "require":{
+    "php":">=5.4.0"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "4.8.9"
+  },
+  "autoload":{
+    "classmap":["src"]
+  }
+}
